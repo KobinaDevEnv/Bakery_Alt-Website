@@ -1,8 +1,17 @@
-
+body{
+    background-color: black;
+}
+a{
+    color:goldenrod; 
+}
+a:hover{
+    color: antiquewhite;
+}
 .topnav{
     display: flex;
     justify-content: space-between;
     font-family: 'Homemade Apple', cursive;
+    color: goldenrod;
     
 }
 .header{
@@ -13,4 +22,7 @@ header{
 }
 .topnav p{
     margin-top: 0px;
+}
+.menu{
+    justify-content: space-around;
 }
