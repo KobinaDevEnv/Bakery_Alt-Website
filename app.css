@@ -2,11 +2,19 @@ body{
     background-color: black;
 }
 a{
+    text-decoration-line: none;
+    
+}
+a:link{
     color:goldenrod; 
 }
 a:hover{
     color: antiquewhite;
 }
+a:visited{
+    color: 	#900020
+}
+
 .topnav{
     display: flex;
     justify-content: space-between;
