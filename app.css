@@ -1,9 +1,21 @@
-body{
-    background-color: black;
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-color:white;
+    background-image: url(./assets/MainBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    opacity: 1;
+}
+header{
+    padding-top: 16px;
 }
 a{
-    text-decoration-line: none;
-    
+    text-decoration-line: none;  
 }
 a:link{
     color:goldenrod; 
@@ -18,24 +30,24 @@ a:visited{
 .topnav{
     display: flex;
     justify-content: space-between;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Old Standard TT', serif;
     color: goldenrod;
+    font-size: 21px;
+  
     
 }
 
-header{
+header img{
     display: flex;
+    padding-bottom: 0px;
+    width: 150px;
+    height: 126px;
+    
 }
 .topnav p{
     margin-top: 0px;
+    position: absolute;
 }
 .menu{
-    padding: 20,20,20, 20;
-}
-.slideshow img{
-    width: 100%;
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding-top: 84px
 }
