@@ -21,5 +21,8 @@
   "homepage": "https://github.com/KobinaDevEnv/Bakery_Alt-Website#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0"
   }
 }
