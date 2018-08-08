@@ -1,0 +1,33 @@
+[debug] [2018-08-08T16:29:42.421Z] ----------------------------------------------------------------------
+[debug] [2018-08-08T16:29:42.437Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\kdadzie\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-08T16:29:42.437Z] CLI Version:   4.0.3
+[debug] [2018-08-08T16:29:42.437Z] Platform:      win32
+[debug] [2018-08-08T16:29:42.437Z] Node Version:  v8.11.2
+[debug] [2018-08-08T16:29:42.437Z] Time:          Wed Aug 08 2018 12:29:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:29:42.437Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-08T16:29:42.453Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-08T16:29:42.453Z] > authorizing via signed-in user
+[debug] [2018-08-08T16:29:42.453Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bakery-1e54a  
+  
+ Wed Aug 08 2018 12:29:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:29:42.904Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-08T16:29:42.904Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bakery-1e54a/tokens  
+  
+ Wed Aug 08 2018 12:29:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:29:43.275Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-08T16:29:43.276Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bakery-1e54a  
+  
+ Wed Aug 08 2018 12:29:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:29:44.045Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\kdadzie\Desktop\DevEnv\Alt_Bakery\static'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: EPERM: operation not permitted, rename 'C:\Users\kdadzie\.config\configstore\@google-cloud\functions-emulator\config.json.2906722301' -> 'C:\Users\kdadzie\.config\configstore\@google-cloud\functions-emulator\config.json'
+[debug] [2018-08-08T16:29:44.269Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1004714335837/clients/_:getWebAppConfig  
+  
+ Wed Aug 08 2018 12:29:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:29:44.869Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

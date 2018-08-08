@@ -1,0 +1,70 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-color:white;
+    background-image: url(./assets/MainBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    opacity: 1;
+}
+#logo{
+    max-width: 100%;
+    max-height: 100%
+}
+.logoContainer{
+    width: 160px;
+    height: 160px;
+}
+header img{
+    width: 120px;
+    height: 91px;
+   
+}
+a{
+    text-decoration-line: none;  
+}
+
+a:link{
+    color:goldenrod; 
+}
+a:hover{
+    color: antiquewhite;
+}
+a:visited{
+    color: 	#900020
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Old Standard TT', serif;
+    color: goldenrod;
+    font-size: 21px;
+  
+}
+
+header img{
+    display: flex;
+    padding-bottom: 0px;
+    width: 150px;
+    height: 126px;
+    
+}
+.topnav p{
+    margin-top: 0px;
+    position: absolute;
+}
+.menu{
+    padding-top: 49px
+}
+.slideshow img{
+    width: 102%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

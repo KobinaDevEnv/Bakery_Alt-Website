@@ -1,0 +1,74 @@
+[debug] [2018-08-08T15:32:16.071Z] ----------------------------------------------------------------------
+[debug] [2018-08-08T15:32:16.071Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\kdadzie\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-08-08T15:32:16.071Z] CLI Version:   4.0.3
+[debug] [2018-08-08T15:32:16.071Z] Platform:      win32
+[debug] [2018-08-08T15:32:16.071Z] Node Version:  v8.11.2
+[debug] [2018-08-08T15:32:16.071Z] Time:          Wed Aug 08 2018 11:32:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T15:32:16.071Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-08T15:32:16.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-08T15:32:16.087Z] > authorizing via signed-in user
+[debug] [2018-08-08T15:32:16.087Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bakery-1e54a  
+  
+ Wed Aug 08 2018 11:32:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T15:32:16.464Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-08T15:32:16.465Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bakery-1e54a/tokens  
+  
+ Wed Aug 08 2018 11:32:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T15:32:16.824Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-08T15:32:16.825Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bakery-1e54a  
+  
+ Wed Aug 08 2018 11:32:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T15:32:17.107Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\kdadzie\Desktop\DevEnv\Alt_Bakery\public'...
+[info] 
+[debug] [2018-08-08T15:32:17.112Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1004714335837/clients/_:getWebAppConfig  
+  
+ Wed Aug 08 2018 11:32:17 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T15:32:17.649Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2018-08-08T16:05:50.651Z] ----------------------------------------------------------------------
+[debug] [2018-08-08T16:05:50.666Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\kdadzie\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-08-08T16:05:50.666Z] CLI Version:   4.0.3
+[debug] [2018-08-08T16:05:50.666Z] Platform:      win32
+[debug] [2018-08-08T16:05:50.666Z] Node Version:  v8.11.2
+[debug] [2018-08-08T16:05:50.666Z] Time:          Wed Aug 08 2018 12:05:50 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:05:50.666Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-08T16:05:50.682Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-08T16:05:50.682Z] > authorizing via signed-in user
+[debug] [2018-08-08T16:05:50.682Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-08T16:05:50.682Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/1QBYZtuMxFcql-FcLDIQOXCb-BK-3dOzOGtPiEzggM00aIkuUrjOqT6Myt5ygEq8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 08 2018 12:05:50 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:05:50.909Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-08T16:05:50.924Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bakery-1e54a  
+  
+ Wed Aug 08 2018 12:05:50 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:05:51.305Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-08T16:05:51.305Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bakery-1e54a/tokens  
+  
+ Wed Aug 08 2018 12:05:51 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:05:51.696Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-08T16:05:51.696Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bakery-1e54a  
+  
+ Wed Aug 08 2018 12:05:51 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:05:51.978Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\kdadzie\Desktop\DevEnv\Alt_Bakery\public'...
+[info] 
+[debug] [2018-08-08T16:05:51.978Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1004714335837/clients/_:getWebAppConfig  
+  
+ Wed Aug 08 2018 12:05:51 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-08T16:05:52.398Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
