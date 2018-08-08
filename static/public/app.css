@@ -68,3 +68,14 @@ header img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.nxtbg{
+    background-color: white;
+    height: 60%;
+}
+.nxtpage_header{
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    opacity: 0.65;
+}
