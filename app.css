@@ -1,6 +1,12 @@
 body{
     background-color: black;
 }
+
+header img{
+    width: 120px;
+    height: 91px;
+   
+}
 a{
     text-decoration-line: none;
     
@@ -17,9 +23,12 @@ a:visited{
 
 .topnav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     font-family: 'Homemade Apple', cursive;
     color: goldenrod;
+    
+
+    
     
 }
 
@@ -33,7 +42,7 @@ header{
     padding: 20,20,20, 20;
 }
 .slideshow img{
-    width: 100%;
+    width: 102%;
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
