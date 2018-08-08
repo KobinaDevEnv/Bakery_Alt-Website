@@ -1,5 +1,18 @@
-body{
-    background-color: black;
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-color:white;
+    background-image: url(./assets/MainBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    opacity: 1;
+}
+header{
+    padding-top: 16px;
 }
 
 header img{
@@ -8,8 +21,7 @@ header img{
    
 }
 a{
-    text-decoration-line: none;
-    
+    text-decoration-line: none;  
 }
 a:link{
     color:goldenrod; 
@@ -23,24 +35,37 @@ a:visited{
 
 .topnav{
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between ;
     font-family: 'Homemade Apple', cursive;
+=======
+    justify-content: space-between;
+    font-family: 'Old Standard TT', serif;
+>>>>>>> 634023c0faaf7da582e630eb4ff2cfbc3e25cfa3
     color: goldenrod;
+    font-size: 21px;
+  
     
 
     
     
 }
 
-header{
+header img{
     display: flex;
+    padding-bottom: 0px;
+    width: 150px;
+    height: 126px;
+    
 }
 .topnav p{
     margin-top: 0px;
+    position: absolute;
 }
 .menu{
-    padding: 20,20,20, 20;
+    padding-top: 84px
 }
+<<<<<<< HEAD
 .slideshow img{
     width: 102%;
     height: 50%;
@@ -48,3 +73,5 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+=======
+>>>>>>> 634023c0faaf7da582e630eb4ff2cfbc3e25cfa3
