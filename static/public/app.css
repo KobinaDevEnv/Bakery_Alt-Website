@@ -79,3 +79,8 @@ header img{
     font-size: 27px;
     opacity: 0.65;
 }
+.goal{
+    width: 40px;
+    height: 40px;
+    background-color: steelblue;
+}
