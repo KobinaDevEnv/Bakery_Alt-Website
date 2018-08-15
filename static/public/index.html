@@ -7,6 +7,7 @@
     <title>Ms. Mary's Bakery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     <link rel="stylesheet" type="text/css" media="screen" href="app.css" />
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
@@ -15,23 +16,26 @@
 
 <body>
     <div class="topnav">
-        <header> 
-            <div class="logoContainer" >
-                <a href="index.html"> <img  id="logo" src="/assets/logo/high-res/logo-transparent.png" alt="logo" ></div> 
-                </a>
-            </header>
-            <nav class="menu">
-                <a href="./index.html">Home</a>|               
-                <a href="./about/about.html">About</a>|
-                <a href="./gallery/gallery.html">Gallery</a>|
-                <a href="#">Services</a>|
-                <a href="">Make an Appointment</a>|
-            </nav>
+        <header>
+            <div class="logoContainer">
+                <a href="index.html">
+                    <img id="logo" src="assets/logo/high-res/logo-transparent.png" alt="logo">
+                </div>
+            </a>
+        </header>
+        <nav class="menu">
+            <a href="./index.html">Home</a>|
+            <a href="./about/about.html">About</a>|
+            <a href="./gallery/gallery.html">Gallery</a>|
+            <a href="./services/services.html">Services</a>|
+            <a href="./appointment/appointment.html">Make an Appointment</a>|
+        </nav>
     </div>
-    <section class="slideshow">
-        <!-- <div class="img"><img src="assets/3848765-wallpaper-images-download.jpg" alt="dog"></div> 
-        <div class="img"><img src="assets/cakes-chocolate-close-up-959079.jpg" alt=""></div>
-        <div class="img"><img src="assets/chocolate-cake-without-flour.jpg" alt=""></div> -->
+    <section class="phoenix-slider">
+        <div class="pheonix-feather"><img src="assets/3848765-wallpaper-images-download.jpg" alt="dog"></div> 
+        <div class="pheonix-feather"><img src="assets/chocolate-cake-without-flour.jpg" alt=""></div>
+        <div class="phoenix-feather"><img src="assets/MainBackground.jpg" alt=""></div>
+        <div class="pheonix-feather"><img src="assets/butter.jpg" alt=""></div>
     </section>
     <div class="bg"></div>
     <div class="nxtbg">
@@ -40,23 +44,35 @@
         </div>
         <div class="goal">
             <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Praesent sed rhoncus metus, hendrerit efficitur nibh. 
-                Fusce et erat risus. Cras iaculis tempor sollicitudin. 
-                Ut at consectetur augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
-                Etiam et egestas justo, at lobortis enim. Pellentesque pulvinar nisl a ornare ultricies.
-                Aliquam sed turpis et justo venenatis consectetur nec id mauris"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed rhoncus metus, hendrerit efficitur nibh. Fusce et
+                erat risus. Cras iaculis tempor sollicitudin. Ut at consectetur augue. Vestibulum ante ipsum primis in faucibus
+                orci luctus et ultrices posuere cubilia Curae; Etiam et egestas justo, at lobortis enim. Pellentesque pulvinar
+                nisl a ornare ultricies. Aliquam sed turpis et justo venenatis consectetur nec id mauris"
             </p>
         </div>
     </div>
-    <div class="Gallery">
-
-
+    <div class="gallery">
+        <a href="./gallery/gallery.html">
+            <h3>Gallery</h3>
+        </a>
+        <div class="grid_snapshot"></div>
     </div>
-    <div class="Services">
-
+    <div class="services">
+        <a href="./services/services.html">
+            <h3>Services</h3>
+        </a>
+        <div class="price_flavour "></div>
     </div>
-    <script src="app.js"></script>
+    <div class="contact">
+        <a href="./appointment/appointment.html">
+            <h3>Contact Us/Make An Appointment</h3>
+        </a>
+        <div class="form_contact"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.mobile.touchsupport.js"></script>
+    <script src="jquery.phoenix.js"></script>
+	<script src="app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,4 @@
+PhoenixSlider
+=============
+
+Simple jQuery Slider
