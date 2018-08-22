@@ -41,20 +41,19 @@ header img {
 
 a {
     text-decoration-line: none;
+    color: none;
 }
 
-a:link {
+a:link, a:visited {
     color: goldenrod;
 }
 
 a:hover {
     color: antiquewhite;
 }
-
-a:visited {
+a:active {
     color: #900020
-}
-
+    }
 .topnav {
     display: flex;
     justify-content: space-between;
@@ -114,7 +113,7 @@ header img {
 .phoenix-slider {
     overflow: hidden;
     width: 100%;
-    height: 630px;
+    height: 395px;
     position: relative;
     background: #5c1e1e;
     -webkit-backface-visibility: hidden;
@@ -153,28 +152,29 @@ header img {
 }
 
 /* dot nagivvation */
+
 .container-dots-wrapper {
     position: absolute;
     top: 0;
     right: 10px;
     height: 100%;
     z-index: 9;
-  }
-  
-  .container-dots-inner {
+}
+
+.container-dots-inner {
     display: table;
     height: 100%;
-  }
-  
-  .dots {
+}
+
+.dots {
     display: table-cell;
     vertical-align: middle;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .dots li {
+}
+
+.dots li {
     width: 10px;
     height: 10px;
     margin: 0 4px 7px 4px;
@@ -190,18 +190,18 @@ header img {
     -ms-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
-    -webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.5));
-    -moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.5));
-    -ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.5));
-    -o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.5));
-    filter: drop-shadow(0 1px 2px rgba(0,0,0,.5));
-  }
-  
-  .dots li.active {
+    -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .5));
+    -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .5));
+    -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .5));
+    -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .5));
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .5));
+}
+
+.dots li.active {
     width: 11px;
     height: 11px;
     background: #fff;
     border: 2px solid #fff;
     left: 8px;
     opacity: 1;
-  }
+}
