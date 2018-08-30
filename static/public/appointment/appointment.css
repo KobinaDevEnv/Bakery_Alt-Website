@@ -59,7 +59,7 @@
     margin-bottom: 25%;
 }
 
-.weddingck_form{
+.weddingck_form, .other_product_form{
     position: relative;
     display: flex;
     justify-content: center;
@@ -72,4 +72,6 @@
 }
 .btn{
     background-color: goldenrod;
+   
 }
+

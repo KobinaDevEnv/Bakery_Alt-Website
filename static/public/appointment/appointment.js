@@ -1,8 +1,10 @@
 
+
 var weddingck_form_container,
     other_product_form_container,
     weddingck_div,
     otherproduct_div,
+    DatePicker;
    
     
    
@@ -13,6 +15,7 @@ weddingck_form_container = document.querySelector('.weddingck_form');
 other_product_form_container= document.querySelector('.other_product_form')
 weddingck_div = document.querySelector('.wedding_cakes')
 otherproduct_div = document.querySelector('.other_products')
+DatePicker = document.querySelector('.datepicker')
 createform_wedck = document.createElement('form')
 
 /////// Functions/////////
@@ -45,18 +48,43 @@ function generateotherproductformHTML() {
 }
 
 /** 
-@name: hideWeddingck_div
-@desc: Hide contents of a div 
+@name: weddingck_div
+@desc: show contents of a div 
 **/
 function weddingck_forms_div() {
     weddingck_div.addEventListener('click', function () {
     $('.info_box').hide();
-    $(weddingck_form_container).removeAttr("hidden")
+    $(weddingck_form_container).removeAttr("hidden");
             
  })
     
 }
 
+/** 
+@name: otherproduct_div
+@description: show content of a div
+**/
+function otherproducts_form_div() {
+    otherproduct_div.addEventListener('click', function () {
+        $('.info_box').hide();
+        $(other_product_form_container).removeAttr("hidden");
+    })
+    
+}
+/**
+ @name: initializeDatePicker
+ @description: intialize the date picker 
+ */
+
+ function initializeDatePicker() {
+     DatePicker.addEventListener('click', function () {
+        $(DatePicker).datepicker();
+     })
+   
+ }
 function initialize() {
+
     weddingck_forms_div();
+    otherproducts_form_div();
+    initializeDatePicker();    
 }

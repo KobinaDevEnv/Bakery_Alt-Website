@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../app.css">
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -43,7 +44,7 @@
                     <p>Wedding Cakes</p>
                 </div>
             </div>
-            <div class="other_products wedding_cakes">
+            <div class="other_products wedding_cakes" onclick="otherproducts_form_div()">
                 <div class="text_overlay">
                     <p>Other Products </p>
                 </div>
@@ -54,9 +55,9 @@
             <section class="section">
 
                 <!--Section heading-->
-                <h2 class="h1-responsive font-weight-bold text-center my-5">Contact us</h2>
+                <h2 class="h1-responsive font-weight-bold text-center my-5">Make An Appointment with Us</h2>
                 <!--Section description-->
-                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you
+                <p class="text-center w-responsive mx-auto mb-5">Need Inpirsation and Ideas? Please do not hesitate to contact us directly. Our team will come back to you
                     within matter of hours to help you.</p>
 
                 <div class="row">
@@ -113,11 +114,33 @@
 
                                 </div>
                             </div>
-                            <!--Grid row-->
+                            <!-- Grid row -->
+                            <div class="row">
+
+                                <div class="col-md-5">
+                                    <div class="md-form">
+                                        <div class="file-field">
+                                            <div class="btn btn-primary btn-sm float-left">
+                                                <input type="file">
+                                            </div>                                     
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 ml-auto">
+                                    <div class="md-form">
+                                        <input  type="date" name="calander" id="date-picker-example" class="form-control datepicker">  
+                                        <!-- <label for="date-picker-example">Date & Time for arrival</label>                                                               -->
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
 
                         </form>
 
-                        <div class="text-center text-md-left">
+                        <div class="text-center text-md-right">
                             <a class="btn btn-primary" onclick="location.href='./appointment.html'">Back</a>
 
                             <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
@@ -131,7 +154,7 @@
                         <ul class="list-unstyled mb-0">
                             <li>
                                 <i class="fa fa-map-marker fa-2x"></i>
-                                <p>San Francisco, CA 94126, USA</p>
+                                <p>Accra,Ghana,West Africa</p>
                             </li>
 
                             <li>
@@ -141,7 +164,7 @@
 
                             <li>
                                 <i class="fa fa-envelope mt-4 fa-2x"></i>
-                                <p>contact@mdbootstrap.com</p>
+                                <p>contact@msmarysbakery.com</p>
                             </li>
                         </ul>
                     </div>
@@ -151,7 +174,37 @@
 
             </section>
         </div>
-        <div class="other_product_form"></div>
+        <div class="other_product_form" hidden>
+            <section class="section">
+
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-5">Order From Us</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Need some for your birthdays, anniversaries,showers and other celebrations ?
+                    Please do not hesitate to order
+                    from us directly. Our team will come back to you within matter of hours to help you.
+                </p>
+
+                <div class="row">
+                    <div class="col-sm-8git  ">
+                        
+                    </div>
+                    <div class="col-sm-4">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+
+                    </div>
+                    <div class="col-sm">
+
+                    </div>
+                    <div class="col-sm">
+
+                    </div>
+                </div>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"

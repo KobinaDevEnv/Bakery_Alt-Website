@@ -49,7 +49,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: antiquewhite;
+    color: antiquewhite !important;
 }
 a:active {
     color: #900020
