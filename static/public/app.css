@@ -108,6 +108,16 @@ header img {
     max-height: 100%;
     margin-top: 0px;
     font-size: 20px;
+    text-align: center;
+}
+.social_media{
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.fa {
+    margin: 10px;
 }
 
 /* phoenix- slideshow */
@@ -118,9 +128,6 @@ header img {
     height: 395px;
     position: relative;
     background: #5c1e1e;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
 }
 
 .phoenix-slider .phoenix-feather {

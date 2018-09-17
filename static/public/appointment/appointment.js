@@ -1,10 +1,19 @@
-
-
 var weddingck_form_container,
     other_product_form_container,
     weddingck_div,
     otherproduct_div,
-    DatePicker;
+    DatePicker,
+    appointment,
+    name,
+    email,
+    subject,
+    message,
+    file,
+    date,
+    config,
+    count;
+   
+    
    
     
    
@@ -17,6 +26,21 @@ weddingck_div = document.querySelector('.wedding_cakes')
 otherproduct_div = document.querySelector('.other_products')
 DatePicker = document.querySelector('.datepicker')
 createform_wedck = document.createElement('form')
+config = {
+    apiKey: "AIzaSyCpDs3mw9AbX3anhNDZWEskGnupUA4pTbA",
+    authDomain: "bakery-1e54a.firebaseapp.com",
+    databaseURL: "https://bakery-1e54a.firebaseio.com",
+    projectId: "bakery-1e54a",
+    storageBucket: "bakery-1e54a.appspot.com",
+    messagingSenderId: "1004714335837"
+  };
+  
+  firebase.initializeApp(config)
+
+ 
+
+
+
 
 /////// Functions/////////
 ////////////////////////////
@@ -27,14 +51,56 @@ createform_wedck = document.createElement('form')
 //navigateToPage
 // initialize
 
+
+/**
+ * @name: validateEntry
+ * @description: validate all entries 
+ */
+
+ function validateEntry(){
+     debugger
+   if(name == "" || email == "" || subject == ""|| message== ""|| file== "" || date == ""){
+       alert("All fields must be filled")
+       return false;
+    }
+    else{
+        return true ;
+    }
+}
 /** 
-@name: generateweddingformHTML
-@desc: create  wedding form html for user entry 
+@name: submitAppointment
+@desc: create  wedding  form html for user entry 
 **/
 
-function generateweddingformHTML() {
-    
+function submitAppointment() {
+    Submit.addEventListener('click', function () {
+      
+        name = $("#name").val();
+        email = $("#email").val();
+        subject = $("#subject").val();
+        message = $("#message").val();
+        file = $("#file").val();
+        date = $("#date-picker-example").val();
+        if (validateEntry() == true){
+            // Set and push entries  
+            appointment = firebase.database().ref("appointments/"+ name ).push().set({
+                "name": name,
+                "email": email,
+                "subject": subject,
+                "message": message,
+                "file " : file,
+                "date": date
+            })
+            
+            alert("DONE")
+            
+        }else{
+            return;
+        }
+        
+    })
 
+    
 }
 
 /*
@@ -78,13 +144,16 @@ function otherproducts_form_div() {
 
  function initializeDatePicker() {
      DatePicker.addEventListener('click', function () {
-        $(DatePicker).datepicker();
+        $(DatePicker).pickadate();
      })
    
  }
 function initialize() {
-
     weddingck_forms_div();
     otherproducts_form_div();
-    initializeDatePicker();    
+    submitAppointment();
+    // initializeDatePicker();    
+   
 }
+
+initialize();
